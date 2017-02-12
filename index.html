@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Generator</title>
+  </head>
+  
+  <body id="test">
+    <div class="boxed">
+      <header id="h3" class="center">Random Color Generator</header>
+      <button id="button" class="center btn uselectable" onClick="setColor()">
+        <span class="btn-text unselectable">Generate</span>
+      </button>
+      <div id="switch-wrapper" class="center">
+        <input type="checkbox" name="toggle" id="check-box" onchange="updateBanner(this.checked)" />
+        <label for="check-box" title="Turn on for material colors"></label>
+      </div>
+      <div id="color">#ecf0f1</div>
+    </div>
+  </body>
+</html>
